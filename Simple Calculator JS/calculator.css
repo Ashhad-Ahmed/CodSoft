@@ -1,0 +1,47 @@
+* {
+    font-size: 1.3rem;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+}
+
+.container {
+    height: 17cm;
+    width: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.calc-buttons {
+    background-color: #191f27;
+    padding: 30px;
+    border-radius: 5%;
+}
+
+#res {
+    width: auto;
+    text-align: right;
+    margin: 20px 0px;
+    padding: 0px 17px;
+    background-color: #bababb8e;
+    border: 2px solid;
+}
+
+.calc-buttons form input {
+    border: 0;
+    outline: 0;
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+    box-shadow: -5px -4px 12px rgba(172, 167, 167, 0.267), 5px 5px 15px rgba(0, 2, 2, 0.2);
+    background: transparent;
+    color: #fff;
+    cursor: pointer;
+    margin: 10px;
+}
+
+form input.button-equal {
+    width: 145px;
+}
